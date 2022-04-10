@@ -36,7 +36,7 @@ function App() {
 
                 
 
-                <div key={idx} className="redshades" style={{ backgroundColor: `rgb(255, ${ Math.floor(Math.random()*200)},${ Math.floor(Math.random()*120)})`}} >{idx}</div>
+                <div key={idx} className="redshades" style={{ backgroundColor: `rgb(255, ${ Math.floor(Math.random()*200)},${ Math.floor(Math.random()*120)})`}} >{idx+1}</div>
                 
                
               ))}
